@@ -8,10 +8,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/maeztra-challenge/',
     element: <App />,
     children: [
-      {path: '/', element: <Home />}
+      {path: '/maeztra-challenge/', element: <Home />}
     ]
   }
 ])
