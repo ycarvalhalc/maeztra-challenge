@@ -1,0 +1,67 @@
+{
+  "menus": [
+    {
+      "title": "Informações",
+      "links": [
+        {
+          "text": "Quem Somos",
+          "href": "/",
+          "id": 11
+        },
+        {
+          "text": "Prazo de Envio",
+          "href": "/",
+          "id": 12
+        },
+        {
+          "text": "Trocas e Devoluções",
+          "href": "/",
+          "id": 13
+        },
+        {
+          "text": "Promoções e Cupons",
+          "href": "/",
+          "id": 14
+        }
+      ],
+      "id": 1
+    }, 
+    {
+      "title": "Minha Conta",
+      "links": [
+        {
+          "text": "Minha Conta",
+          "href": "/",
+          "id": 21
+        },
+        {
+          "text": "Meus Pedidos",
+          "href": "/",
+          "id": 22
+        },
+        {
+          "text": "Cadastre-se",
+          "href": "/",
+          "id": 23
+        }
+      ],
+      "id": 2
+    }, 
+    {
+      "title": "Onde nos Encontrar",
+      "links": [
+        {
+          "text": "Lojas",
+          "href": "/",
+          "id": 31
+        },
+        {
+          "text": "Endereços",
+          "href": "/",
+          "id": 32
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

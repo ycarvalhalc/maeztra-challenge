@@ -1,0 +1,45 @@
+.menuMobile {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.menuMobile__btnMenu {
+  border: 0;
+  background-color: unset;
+  width: 32px;
+  height: 32px;
+}
+
+.menuMobile__drawer--active {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.menuMobile__content {
+  width: 0vw;
+  height: 100%;
+  background-color: #FFFFFF;
+  transition: width .5s ease;
+}
+
+.menuMobile__drawer--active .menuMobile__content {
+  width: 75vw;
+}
+.menuMobile__overlay {
+  width: 0;
+}
+
+.menuMobile__drawer--active .menuMobile__overlay {
+  background-color: #000000;
+  opacity: 0.6;
+  display: block;
+  width: 25vw;
+  height: 100vh;
+}

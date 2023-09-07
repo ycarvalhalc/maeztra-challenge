@@ -1,0 +1,30 @@
+.bottomBar {
+  width: 100%;
+  background-color: #353535;
+}
+
+.bottomBar__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 0;
+  max-width: 1598px;
+}
+
+.bottomBar__acceptedPayments {
+  margin: 32px 0;
+}
+
+@media only screen and (min-width: 1026px) {
+  .bottomBar__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .bottomBar__acceptedPayments {
+    margin: 0;
+  }
+}

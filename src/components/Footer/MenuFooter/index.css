@@ -1,0 +1,76 @@
+.menuFooter {
+  padding: 31px 35px 31px 40px;
+}
+
+.menuFooter__accordion {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.menuFooter__btnAccordion {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Titillium Web';
+  padding: 4px 0;
+}
+
+.menuFooter__btnAccordion::after {
+  content: "+";
+}
+
+.menuFooter__btnAccordion--active::after {
+  content: "-";
+}
+
+.menuFooter__panel {
+  overflow: hidden;
+  transition: height .3s ease;
+  height: 0;
+}
+
+.menuFooter__links {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media only screen and (min-width: 1026px) {
+  .menuFooter {
+    padding: 40px 0 64px;
+  }
+
+  .menuFooter__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 952px;
+    margin: 0 auto;
+  }
+
+  .menuFooter__accordion {
+    width: auto;
+  }
+
+  .menuFooter__btnAccordion::after {
+    display: none;
+  }
+
+  .menuFooter__panel {
+    height: auto !important;
+  }
+
+  .menuFooter__links:hover {
+    text-decoration: underline;
+  }
+}

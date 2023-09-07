@@ -1,0 +1,53 @@
+.mosaic {
+  width: 100%;
+  padding: 0 32px;
+  max-width: 1598px;
+  margin: 0 auto 40px;
+}
+
+.mosaic__image {
+  width: 100%;
+  display: block;
+  max-width: 1114px;
+}
+
+.mosaic__description {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.mosaic__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  margin-bottom: 16px;
+}
+
+.mosaic__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 91%;
+}
+
+@media only screen and (min-width: 1026px) {
+  .mosaic {
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 80px;
+    width: 95%;
+  }
+
+  .mosaic__description {
+    max-width: 420px;
+    width: 26.2828%;
+  }
+
+  .mosaic__image {
+    margin-left: auto;
+    width: 69.7121%;
+  }
+}

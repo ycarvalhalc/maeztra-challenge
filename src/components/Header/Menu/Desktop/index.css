@@ -1,0 +1,43 @@
+.menuDesktop {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.menuDesktop__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.menuDesktop__item {
+  margin-right: 15px;
+}
+
+.menuDesktop__item:last-child {
+  margin-right: 0;
+}
+
+.menuDesktop__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 146px;
+  text-align: center;
+  display: block;
+}
+
+.menuDesktop__link--news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700px;
+  color: #FAA500;
+}
+
+.menuDesktop__linkImage {
+  margin-right: 10px;
+  width: 14px;
+  display: block
+}

@@ -1,0 +1,150 @@
+.shelf {
+  width: 100vw;
+  max-width: 1598px;
+  margin: 0 auto 24px;
+}
+
+.shelf__title {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #353535;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.shelf .slick-slide {
+  padding: 0 8px;
+}
+
+.shelf .slick-track{
+  display: flex;
+}
+
+.product__image {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.product__informations {
+  padding: 0 26px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+}
+
+.product__skuSelector {
+  margin-bottom: 8px;
+}
+
+.product__skuList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.product__skuItem {
+  margin-right: 8px;
+  font-size: 0;
+  display: block;
+  width: 27px;
+  height: 27px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product__skuItem--selected {
+  border: 1px solid #353535
+}
+
+.product__description {
+  margin-bottom: 8px;
+}
+
+.product__price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.product__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.product__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #353535;
+  width: 100%;
+  max-width: 240px;
+}
+
+.product__buyButton {
+  width: 100%;
+  background: #FAA500;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  border: 0;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1026px) {
+  .shelf {
+    margin-bottom: 80px;
+  }
+
+  .shelf .slick-list {
+    padding-left: 0 !important;
+  }
+
+
+  .shelf__slider .slick-list {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .shelf__slider .slick-arrow {
+    z-index: 1;
+    width: 19px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/icon_arrow_left.png);
+  }
+
+  .shelf__slider .slick-prev {
+    left: 2%;
+  }
+  
+  .shelf__slider .slick-next {
+    right: 2%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  
+  .shelf__slider .slick-next::before,
+  .shelf__slider .slick-prev::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1598px) {
+  .shelf__slider .slick-list {
+    width: 100%;
+  }
+}

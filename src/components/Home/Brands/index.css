@@ -1,0 +1,38 @@
+.brands {
+  max-width: 1598px;
+  margin: 0 auto 40px;
+}
+
+.brands__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #353535;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.brands .slick-slide {
+  padding: 0 8px;
+}
+
+.brands .slick-track {
+  display: flex;
+}
+
+.brands__itemImage {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1026px) {
+  .brands__slider .slick-list {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1598px) {
+  .brands__slider .slick-list {
+    width: 100%;
+  }
+}

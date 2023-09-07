@@ -1,0 +1,83 @@
+.fullBanner {
+  width: 100vw;
+  margin-bottom: 24px;
+}
+
+.fullBanner__slider {
+  width: 100vw;
+}
+
+.fullBanner__item {
+  display: block !important;
+}
+
+.fullBanner__image {
+  width: 100%;
+}
+
+.fullBanner__slider .slick-arrow {
+  z-index: 1;
+  width: 19px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/icon_arrow_left.png);
+}
+
+.fullBanner__slider .slick-prev {
+  left: 7.7%;
+}
+
+.fullBanner__slider .slick-next {
+  right: 7.7%;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.fullBanner__slider .slick-next::before,
+.fullBanner__slider .slick-prev::before {
+  display: none;
+}
+
+.fullBanner__slider .slick-dots {
+  bottom: 16px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullBanner__slider .slick-dots li,
+.fullBanner__slider .slick-dots li button,
+.fullBanner__slider .slick-dots li button:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  padding: 0;
+}
+
+.fullBanner__slider .slick-dots li {
+  border: 1px solid #FAA500;
+  border-radius: 4px;
+  margin: 0 12px;
+}
+
+.fullBanner__slider .slick-dots li button {
+  display: flex;
+}
+
+.fullBanner__slider .slick-dots .slick-active {
+  background-color: #FAA500;
+}
+
+@media only screen and (min-width: 1026px) {
+  .fullBanner__slider .slick-dots li,
+  .fullBanner__slider .slick-dots li button,
+  .fullBanner__slider .slick-dots li button:before {
+    width: 16px;
+    height: 16px;
+  }
+
+  .fullBanner__slider .slick-dots li {
+    border-radius: 8px;
+  }
+}

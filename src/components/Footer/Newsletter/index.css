@@ -1,0 +1,95 @@
+.newsletter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 31px;
+  background-color: #FAFAFA;
+  border-top: 2px solid #EFEFEF;
+  border-bottom: 2px solid #EFEFEF;
+}
+
+.newsletter__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.newsletter__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.newsletter__input,
+.newsletter__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #353535;
+}
+
+.newsletter__input {
+  border: 1px solid #353535;
+  border-radius: 4px;
+  width: 68.5%;
+  padding: 2px 24px;
+  outline: none;
+}
+
+.newsletter__btnSubmit {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Titillium Web';
+  color: #FFFFFF;
+  width: 79px;
+  border: 1px solid #FAA500;
+  background-color: #FAA500;
+  border-radius: 4px;
+  padding: 2px 0;
+}
+
+@media only screen and (min-width: 1026px) {
+  .newsletter {
+    padding: 40px 0;
+  }
+
+  .newsletter__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 952px;
+    width: 100%;
+  }
+
+  .newsletter__title {
+    width: 32.2478%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .newsletter__group {
+    width: 66.1764%;
+    justify-content: unset;
+  }
+
+  .newsletter__input {
+    padding: 8px 24px;
+    width: 80%;
+    margin-right: -4px;
+  }
+
+  .newsletter__btnSubmit {
+    width: 20%;
+    padding: 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

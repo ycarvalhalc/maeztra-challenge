@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "image": "/308x381_1.jpg",
+            "price": "R$ 500,00",
+            "name": "Faux Suede Mini Skirt",
+            "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "skus": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+            "id": 1
+        },
+        {
+            "image": "/308x381_2.jpg",
+            "price": "R$ 320,00",
+            "name": "Ruched Rose Print Mini Skirt",
+            "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "skus": ["#1C1A19", "#D84E4B", "#D84E4B", "#EAE9E5"],
+            "id": 2
+        },
+        {
+            "image": "/308x381_1.jpg",
+            "price": "R$ 500,00",
+            "name": "Faux Suede Mini Skirt",
+            "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "skus": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+            "id": 3
+        },
+        {
+            "image": "/308x381_2.jpg",
+            "price": "R$ 320,00",
+            "name": "Ruched Rose Print Mini Skirt",
+            "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "skus": ["#1C1A19", "#D84E4B", "#D84E4B", "#EAE9E5"],
+            "id": 4
+        },
+        {
+            "image": "/308x381_1.jpg",
+            "price": "R$ 500,00",
+            "name": "Faux Suede Mini Skirt",
+            "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
+            "skus": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
+            "id": 5
+        },
+        {
+            "image": "/308x381_2.jpg",
+            "price": "R$ 320,00",
+            "name": "Ruched Rose Print Mini Skirt",
+            "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
+            "skus": ["#1C1A19", "#D84E4B", "#D84E4B", "#EAE9E5"],
+            "id": 6
+        }
+    ]
+}
