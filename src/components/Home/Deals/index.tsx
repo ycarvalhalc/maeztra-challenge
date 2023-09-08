@@ -32,31 +32,31 @@ const Deals = () => {
         <Slider {...settings}>
           <div className="deals__item">
             <div className="deals__itemContent">
-              <img src="/deals_produtos_importados.jpg" alt="Produtos importados" className="deals__itemImage" />
+              <img src="/maeztra-challenge/deals_produtos_importados.jpg" alt="Produtos importados" className="deals__itemImage" />
             </div>
           </div>
 
           <div className="deals__item">
             <div className="deals__itemContent">
-              <img src="/deals_estoque_brasil.jpg" alt="Estoque do brasil" className="deals__itemImage" />
+              <img src="/maeztra-challenge/deals_estoque_brasil.jpg" alt="Estoque do brasil" className="deals__itemImage" />
             </div>
           </div>
 
           <div className="deals__item">
             <div className="deals__itemContent">
-              <img src="/deals_trocas_garantidas.jpg" alt="Trocas garantidas" className="deals__itemImage" />
+              <img src="/maeztra-challenge/deals_trocas_garantidas.jpg" alt="Trocas garantidas" className="deals__itemImage" />
             </div>
           </div>
 
           <div className="deals__item">
             <div className="deals__itemContent">
-              <img src="/deals_off.jpg" alt="Ganhe 5% off" className="deals__itemImage" />
+              <img src="/maeztra-challenge/deals_off.jpg" alt="Ganhe 5% off" className="deals__itemImage" />
             </div>
           </div>
 
           <div className="deals__item">
             <div className="deals__itemContent">
-              <img src="/deals_frete_gratis.jpg" alt="Frete Grátis" className="deals__itemImage" />
+              <img src="/maeztra-challenge/deals_frete_gratis.jpg" alt="Frete Grátis" className="deals__itemImage" />
             </div>
           </div>
         </Slider>

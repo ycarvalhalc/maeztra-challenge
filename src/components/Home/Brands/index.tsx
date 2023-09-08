@@ -30,7 +30,7 @@ const Brands = () => {
 
           <Slider {...settings}>
             <div className="brands__item">
-              <img className="brands__itemImage" src="/logo_marcas_comma.png" alt="logo comma" />
+              <img className="brands__itemImage" src="/maeztra-challenge/logo_marcas_comma.png" alt="logo comma" />
             </div>
 
             <div className="brands__item">
@@ -38,15 +38,15 @@ const Brands = () => {
             </div>
 
             <div className="brands__item">
-              <img className="brands__itemImage" src="/logo_marcas_forever21.png" alt="logo forever21" />
+              <img className="brands__itemImage" src="/maeztra-challenge/logo_marcas_forever21.png" alt="logo forever21" />
             </div>
 
             <div className="brands__item">
-              <img className="brands__itemImage" src="/logo_marcas_zara.png" alt="logo zara" />
+              <img className="brands__itemImage" src="/maeztra-challenge/logo_marcas_zara.png" alt="logo zara" />
             </div>
 
             <div className="brands__item">
-              <img className="brands__itemImage" src="/logo_marcas_ann_taylor.png" alt="logo ann taylor" />
+              <img className="brands__itemImage" src="/maeztra-challenge/logo_marcas_ann_taylor.png" alt="logo ann taylor" />
             </div>
           </Slider>
         </div>

@@ -18,16 +18,16 @@ const FullBanner = () => {
       <div className="fullBanner">
         <Slider {...settings}>
           <div className="fullBanner__item">
-            <img className="fullBanner__image" src={`/${imageView}_1.jpg`} alt="" />
+            <img className="fullBanner__image" src={`/maeztra-challenge/${imageView}_1.jpg`} alt="" />
           </div>
           <div className="fullBanner__item">
-            <img className="fullBanner__image" src={`/${imageView}_1.jpg`} alt="" />
+            <img className="fullBanner__image" src={`/maeztra-challenge/${imageView}_1.jpg`} alt="" />
           </div>
           <div className="fullBanner__item">
-            <img className="fullBanner__image" src={`/${imageView}_1.jpg`} alt="" />
+            <img className="fullBanner__image" src={`/maeztra-challenge/${imageView}_1.jpg`} alt="" />
           </div>
           <div className="fullBanner__item">
-            <img className="fullBanner__image" src={`/${imageView}_1.jpg`} alt="" />
+            <img className="fullBanner__image" src={`/maeztra-challenge/${imageView}_1.jpg`} alt="" />
           </div>
         </Slider>
       </div>

@@ -18,7 +18,7 @@ const Search = () => {
   const { windowSizeWidth } = getViewportInfo()
   
   return windowSizeWidth < 1026 
-    ? <img className="search__icon" src="/header.png" alt="search icon" />
+    ? <img className="search__icon" src="/maeztra-challenge/header.png" alt="search icon" />
     : (
       <div className="search">
         <div className="search__group">

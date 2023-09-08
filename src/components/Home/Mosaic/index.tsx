@@ -14,7 +14,7 @@ const Mosaic = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin mattis. Hendrerit cras ut nunc enim dictum. Mattis proin ut quis donec sed eget nulla. Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus condimentum velit pharetra. Amet luctus ut vulputate scelerisque.
                 </p>
             </div>
-            <img className="mosaic__image" src={`mosaic_banner_${imageView}.jpg`}/>
+            <img className="mosaic__image" src={`/maeztra-challenge/mosaic_banner_${imageView}.jpg`}/>
         </div>
     )
 }

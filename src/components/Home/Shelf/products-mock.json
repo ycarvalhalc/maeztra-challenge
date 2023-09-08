@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "image": "/308x381_1.jpg",
+            "image": "/maeztra-challenge/308x381_1.jpg",
             "price": "R$ 500,00",
             "name": "Faux Suede Mini Skirt",
             "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -9,7 +9,7 @@
             "id": 1
         },
         {
-            "image": "/308x381_2.jpg",
+            "image": "/maeztra-challenge/308x381_2.jpg",
             "price": "R$ 320,00",
             "name": "Ruched Rose Print Mini Skirt",
             "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
@@ -17,7 +17,7 @@
             "id": 2
         },
         {
-            "image": "/308x381_1.jpg",
+            "image": "/maeztra-challenge/308x381_1.jpg",
             "price": "R$ 500,00",
             "name": "Faux Suede Mini Skirt",
             "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -25,7 +25,7 @@
             "id": 3
         },
         {
-            "image": "/308x381_2.jpg",
+            "image": "/maeztra-challenge/308x381_2.jpg",
             "price": "R$ 320,00",
             "name": "Ruched Rose Print Mini Skirt",
             "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
@@ -33,7 +33,7 @@
             "id": 4
         },
         {
-            "image": "/308x381_1.jpg",
+            "image": "/maeztra-challenge/308x381_1.jpg",
             "price": "R$ 500,00",
             "name": "Faux Suede Mini Skirt",
             "text": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
@@ -41,7 +41,7 @@
             "id": 5
         },
         {
-            "image": "/308x381_2.jpg",
+            "image": "/maeztra-challenge/308x381_2.jpg",
             "price": "R$ 320,00",
             "name": "Ruched Rose Print Mini Skirt",
             "text": "A satin mini skirt featuring an allover floral print, ruched side with self-tie closure, concealed back zipper, and a flounce hem.",
